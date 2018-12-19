@@ -3,17 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <h1>POKEMON</h1>
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Concert+One|Open+Sans:800|Permanent+Marker" rel="stylesheet">
+ 
   </head>
   <body>
-    
-    <input type="text" id = "ingreso-km">
-    <button type="button" id="go">GO</button>
-    
-<div>
-    <ul id="container"></ul>
+      <h1 class="logo">CULTURA POKEMON</h1>
+    <header>
+        <input type="checkbox" id="boton-menu">
+        <label for="boton-menu">Menú</label>
+</label>
+      <nav class="menu">
+        <ul>
+          <li id="inicio"><a>Inicio</a></li>
+          <li id="historia"><a>Historia</a></li>
+          <li id="equipos"><a>Equipos</a></li>
+          <li id="pokemon"><a>Pokemon</a></li>
+        </ul>
+      </nav>
+    </header>
+<div id="pantalla-inicio">
+        <main>
+          <p>¡ Conoce y atrapa Pokémon en el mundo real !</p>
+        </main>  
+</div>    
+<div id="pantalla-dos">
+   <p>AQUI VA LA HISTORIA DE LOS POKEMON</p>
 </div>   
+<div id="pantalla-tres">
+  <p>AQUI VAN A IR LOS EQUIPOS POKEMONS</p>
+</div>
+<div id="pantalla-cuatro">
+  <P>AQUI VA EL CARD DE POKEMON</P>
+  <input type="text" id = "ingreso-km">
+    <button type="button" id="go">GO</button>  
+<div>
+    <div id= "container-list" class = "grid-container"></div>
+</div>
     <!-- <script src="./data/injuries/injuries.js"></script> -->
     <script src="./data/pokemon/pokemon.js"></script>
     <!-- <script src="./data/steam/steam.js"></script> -->
@@ -23,3 +51,4 @@
     <script src="main.js"></script>
   </body>
 </html
+
