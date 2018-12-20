@@ -7,40 +7,60 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans:800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Concert+One|Open+Sans:800|Permanent+Marker" rel="stylesheet">
- 
+    <link href="https://file.myfontastic.com/UbTd45fi68ZyxZaqctkpsc/icons.css" rel="stylesheet"> 
   </head>
   <body>
-      <h1 class="logo">CULTURA POKEMON</h1>
-    <header>
-        <input type="checkbox" id="boton-menu">
-        <label for="boton-menu">Menú</label>
-</label>
+  <header>
+   <input type="checkbox" id="boton-menu">
+   <label for="boton-menu">MENU</label>
       <nav class="menu">
         <ul>
+          <li id="buscar"><a>Buscar Pokemon</a></li>
           <li id="inicio"><a>Inicio</a></li>
           <li id="historia"><a>Historia</a></li>
           <li id="equipos"><a>Equipos</a></li>
-          <li id="pokemon"><a>Pokemon</a></li>
+          <li id="pokemon"><a>Atrapalos todos</a></li>
         </ul>
       </nav>
-    </header>
-<div id="pantalla-inicio">
-        <main>
-          <p>¡ Conoce y atrapa Pokémon en el mundo real !</p>
-        </main>  
-</div>    
-<div id="pantalla-dos">
+  </header>
+
+
+
+
+
+
+
+     <div id = "pantalla-buscar-pokemon"> 
+      <select name="" id="ingreso-km">
+      <option value="2">2km</option>
+      <option value="5">5km</option>
+      <option value="10">10km</option>
+      </select>
+      <!--  <input type="text" id = "ingreso-km">-->
+      <button type="button" id="go">GO</button>  
+      <div id= "container-list" class = "grid-container"></div> 
+  </div>
+   <div id="pantalla-inicio">
+   <div class="bienvenida">¡ Conoce y atrapa Pokémon en el mundo real !</div>
+   <div id="pantalla-dos">
    <p>AQUI VA LA HISTORIA DE LOS POKEMON</p>
-</div>   
-<div id="pantalla-tres">
-  <p>AQUI VAN A IR LOS EQUIPOS POKEMONS</p>
-</div>
-<div id="pantalla-cuatro">
-  <P>AQUI VA EL CARD DE POKEMON</P>
-  <input type="text" id = "ingreso-km">
-    <button type="button" id="go">GO</button>  
-<div>
-    <div id= "container-list" class = "grid-container"></div>
+   </div>   
+   <div id="pantalla-tres">
+   <p>AQUI VAN A IR LOS EQUIPOS POKEMONS</p>
+   </div>
+   <div id="pantalla-cuatro">
+  <p>AQUI VA EL CARD DE POKEMON<p>
+
+ <!--<ul class="menu">
+  <li class="men__item"><a href="" class="menu__link"></a></li>
+  <li class="men__item"><a href="" class="menu__link"></a></li>
+  <li class="men__item"><a href="" class="menu__link"></a></li>
+  <li class="men__item"><a href="" class="menu__link"></a></li>
+</ul> -->
+
+
+
+ 
 </div>
     <!-- <script src="./data/injuries/injuries.js"></script> -->
     <script src="./data/pokemon/pokemon.js"></script>

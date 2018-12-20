@@ -1,37 +1,25 @@
+
 body {
     margin: 0;
-    background-image:url();
     background-position: left;
 }
-
 header {
     width: 100%;
-    background: rgb(43, 46, 238);
-
+    background: rgb(11, 12, 61);
 }
-
-h1 {
-    font-size: 40px;
-    font-family:'Coming Soon', cursive;
-    margin-left: 20%;
-}
-
 #boton-menu {
     display: none;
 }
-
 header label {
     display: none;
     width: 30px;
     height: 30px;
     padding: 10px;
 }
-
 header label:hover {
     cursor: pointer;
     background: rgba(0, 0, 0, 0.3);
 }
-
 .menu ul {
     margin: 0px;
     list-style: none;
@@ -39,11 +27,9 @@ header label:hover {
     display: flex;
     justify-content: flex-end;
 }
-
 .menu li {
 border-left: 1px solid #fff;
 }
-
 .menu li:hover{
     background: rgba(0, 0, 0, 0.3);
 }
@@ -55,15 +41,13 @@ text-decoration: none;
 font-size: 25px;
 font-family:'Coming Soon', cursive; 
 }
-
-main {
+.bienvenida {
     padding: 100px;
     font-size: 50px;
     width: 30%;
     text-align: center;
     font-family: 'Concert One', cursive;
 }
-
 .grid-container {
     display: grid;
     grid-column-gap: 50px;
@@ -71,7 +55,6 @@ main {
     background-color: #2196F3;
     padding: 10px;
   }
-  
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -79,14 +62,13 @@ main {
     font-size: 30px;
     text-align: center;
   }
-  
 @media (max-width:750px) {
     header label {
         display:block;
     }
     .menu {
         position: absolute;
-        background: #4E94AB;
+        background: rgb(63, 179, 218);
         width: 70%;
         margin-left: -70%;
         transition: all 0.5s;
@@ -99,7 +81,13 @@ main {
     }
     #boton-menu:checked ~ .menu{
         margin: 0;
+        font-size: 20px;
     }
 }
+/* Estilo de CSS para la pagina de inicio */
+#pantalla-inicio {
+  background-image: url(img/legen.jpg);
+  background-size:100vw 100vh;
+  margin:0;
 
-
+}
