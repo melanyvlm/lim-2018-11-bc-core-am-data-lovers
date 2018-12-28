@@ -24,16 +24,16 @@ Para iniciar con el proyecto, comenzamos haciendo una encuesta virtual dentro de
 ## Diseño de Interfaz de Usuario
 Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando varias veces, luego utilizamos Balsamiq Mockup y obtuvimos nuestro diseño en alta fidelidad después de varios cambios y utilizando Figma. 
 ### Prototipos a lápiz y papel
-![Prototipo 1](http://subefotos.com/ver/?1e75f8cd70232fc5600f19f461a0ea3fo.jpg) 
-![Prototipo 2](http://subefotos.com/ver/?978eec8f90b93f233e81c7bf8c9c337eo.jpg)
-![Prototipo 3](http://subefotos.com/ver/?92252616979eb8aa50969d6a93f93a37o.jpg) 
-![Prototipo 4](http://subefotos.com/ver/?0d93ea4d8f512eefef267dd80e1125fao.jpg) 
-![Prototipo](http://subefotos.com/ver/?7afd920da40198f35827ae4ab296e3ado.jpg)
+![Prototipo 1](https://fotos.subefotos.com/1e75f8cd70232fc5600f19f461a0ea3fo.jpg) 
+![Prototipo 2](https://fotos.subefotos.com/978eec8f90b93f233e81c7bf8c9c337eo.jpg)
+![Prototipo 3](https://fotos.subefotos.com/92252616979eb8aa50969d6a93f93a37o.jpg) 
+![Prototipo 4](https://fotos.subefotos.com/0d93ea4d8f512eefef267dd80e1125fao.jpg) 
+![Prototipo 5](https://fotos.subefotos.com/7afd920da40198f35827ae4ab296e3ado.jpg)
 
 
 ### Prototipo de Alta fidelidad
-![Prototipo 6](http://subefotos.com/ver/?f2d7273c064a33c00df158e249de623co.jpg) 
-![Prototipo 7](http://subefotos.com/ver/?f2d7273c064a33c00df158e249de623co.jpg)
+![Prototipo 6](https://fotos.subefotos.com/f2d7273c064a33c00df158e249de623co.jpg) 
+![Prototipo 7](https://fotos.subefotos.com/22689ddb8c0fcdf8496a684cb6dfca84o.jpg)
 
 
 
