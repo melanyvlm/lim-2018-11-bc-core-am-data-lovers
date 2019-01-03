@@ -1,3 +1,5 @@
+const pokemonData = window.POKEMON.pokemon;
+const pokemonFunciones = window.pokemonFunciones;
 
 // mostrando pantalla de inicio
 
@@ -39,18 +41,33 @@ function irInicio() {
   document.getElementById('pantalla-equipos').style.display = 'none';
   document.getElementById('pantalla-cuatro').style.display = 'none';
 }
-/* const boton = document.getElementById('go');
-boton.addEventListener('click', manejadorClick);
+
+const ingresokm = document.getElementById('ingreso-km');
 const containerList = document.getElementById('container-list');
-function manejadorClick() {
-  let ingresoValor = parseInt(document.getElementById('ingreso-km').value);
-  const saveArrayFiltrar = filtrar(ingresoValor);
+const ordenalfabeto = document.getElementById('orden-alfabeto');
+
+ingresokm.addEventListener('change', () => {
+    let ingresoValor = ingresokm.options[ingresokm.selectedIndex].value;
+    const saveArrayFiltrar = pokemonFunciones.filtrar(parseInt(ingresoValor));
+    let saveHijoPapa = [];
+    for (let i = 0; i < saveArrayFiltrar.length; i++) {
+      saveHijoPapa.push(`<div class="grid-item">
+      <input type = "image" src="${saveArrayFiltrar[i].img}">
+      <label>${saveArrayFiltrar[i].name}</label>
+                        </div> `);
+    containerList.innerHTML = saveHijoPapa.join('');
+    }
+});
+
+ordenalfabeto.addEventListener('change', () => {
+  let orden = ordenalfabeto.options[ordenalfabeto.selectedIndex].value;
+  const saveArrayFiltrar2 = pokemonFunciones.ordenarPoke(parseInt(orden));
   let saveHijoPapa = [];
-  for (let i = 0; i < saveArrayFiltrar.length; i++) {
+  for (let i = 0; i < saveArrayFiltrar2.length; i++) {
     saveHijoPapa.push(`<div class="grid-item">
-    <input type = "image" src="${saveArrayFiltrar[i].img}">
-     <label>${saveArrayFiltrar[i].name}</label>
+    <input type = "image" src="${saveArrayFiltrar2[i].img}">
+     <label>${saveArrayFiltrar2[i].name}</label>
                        </div> `);
-  }
-  containerList.innerHTML = saveHijoPapa.join('');
-}*/
+    containerList.innerHTML = saveHijoPapa.join('');
+}
+});
