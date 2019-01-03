@@ -7,7 +7,7 @@
   return 'example';
 };*/
 
-window.POKEMON = POKEMON;
+/* window.POKEMON = POKEMON;
 
 let ingresoValor = parseInt(document.getElementById('ingreso-km').value);
 function filtrar(ingresoValor) {
@@ -26,4 +26,4 @@ function filtrar(ingresoValor) {
     prueba = POKEMON.pokemon.filter(recorrido => (recorrido.egg === '10 km'));
     return prueba;
   }
-}
+}*/

@@ -35,8 +35,11 @@
     "no-const-assign": "error",
     "no-var": "error"
  },
-  "extends": "eslint:recommended",
-  "globals": {
-    "example": false
-  }
+ "extends": "eslint:recommended",
+ "globals": {
+   "example": false,
+   "pokemonData":false,
+   "POKEMON": false,
+   "pokemon":false
+ }
 }
