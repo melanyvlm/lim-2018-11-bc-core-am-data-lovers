@@ -8,6 +8,10 @@ box-sizing: border-box;
 body {
 margin: 50 px;
 background-position:center;
+background-image: url(https://image.freepik.com/vector-gratis/fondo-abstracto-poli-diseno_1048-8196.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
 }
 header {
     width: 100%;
@@ -60,8 +64,9 @@ font-family:'Coming Soon', cursive;
     grid-template-columns: 100px 50px 50px 200px;
     grid-gap: 50px;
     grid-template-columns: auto auto auto auto;
-    background-image: url(https://image.freepik.com/vector-gratis/fondo-abstracto-poli-diseno_1048-8196.jpg);
+  
     padding: 20px 0;
+    background-size: 100%;
   } 
 
   .grid-container > div {
@@ -102,12 +107,7 @@ font-size: 20px;
 /* Estilo de CSS para la pagina de inicio */
 #pantalla-inicio {
 background-image: url(img/park.jpg);
-background-size:100vw 100vh;
+background-size:100% 100%;
 margin:0;
 }
 
-#pantalla-buscar-pokemon {
-  background-image: url(https://4.bp.blogspot.com/-PBf84liVMwk/Vss5qZp4NGI/AAAAAAAAGcU/BRfKL61eqWw/s1600/uyiyui.png);
-  background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
-}
