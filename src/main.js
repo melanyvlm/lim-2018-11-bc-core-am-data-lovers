@@ -45,6 +45,7 @@ function irInicio() {
 const ingresokm = document.getElementById('ingreso-km');
 const containerList = document.getElementById('container-list');
 const ordenalfabeto = document.getElementById('orden-alfabeto');
+const filtrotipo = document.getElementById('ingreso-type');
 const containerList2 = document.getElementById('container-list2');
 
 ingresokm.addEventListener('change', () => {
@@ -72,6 +73,21 @@ ordenalfabeto.addEventListener('change', () => {
     containerList.innerHTML = saveHijoPapa.join('');
 }
 });
+
+filtrotipo.addEventListener('change', () => {
+let tipo = filtrotipo.options[filtrotipo.selectedIndex].value;
+const saveArrayFiltrar3 = pokemonFunciones.filterType(tipo);
+let saveHijoPapa = [];
+  for (let i = 0; i < saveArrayFiltrar3.length; i++) {
+    saveHijoPapa.push(`<div class="grid-item">
+    <input type = "image" src="${saveArrayFiltrar3[i].img}">
+     <label>${saveArrayFiltrar3[i].name}</label>
+                       </div> `);
+    containerList.innerHTML = saveHijoPapa.join('');
+}
+});
+
+
 
 const crearTemplateDeCard = (data) => {
   let templateListOfCards = '';

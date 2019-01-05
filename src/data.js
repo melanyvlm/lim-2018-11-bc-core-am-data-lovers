@@ -65,7 +65,16 @@ function ordenarPoke(orden) {
 
 ordenarPoke();
 
+function filterType(tipo) {
+  let filtradosTipo = '';
+    filtradosTipo = pokemonData.filter(function(filt) {
+      return filt.type.includes(tipo);
+      });
+  return filtradosTipo;
+}
+
 window.pokemonFunciones = {
   filtrar,
   ordenarPoke,
+  filterType,
 };
