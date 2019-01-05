@@ -7,26 +7,6 @@
   return 'example';
 };*/
 
-/* window.POKEMON = POKEMON;
-
-let ingresoValor = parseInt(document.getElementById('ingreso-km').value);
-function filtrar(ingresoValor) {
-  let prueba = "";
-  if (ingresoValor === 2) {
-    prueba = POKEMON.pokemon.filter(recorrido => recorrido.egg === '2 km');
-    
-    return prueba;
-  }
-  if (ingresoValor === 5) {
-    prueba = POKEMON.pokemon.filter(recorrido => (recorrido.egg === '5 km'));
-    return prueba;
-  }
-
-  if (ingresoValor === 10) {
-    prueba = POKEMON.pokemon.filter(recorrido => (recorrido.egg === '10 km'));
-    return prueba;
-  }
-}*/
 let ingresoValor = parseInt(document.getElementById('ingreso-km').value);
 function filtrar(ingresoValor) {
   let prueba = "";
@@ -67,14 +47,23 @@ ordenarPoke();
 
 function filterType(tipo) {
   let filtradosTipo = '';
-    filtradosTipo = pokemonData.filter(function(filt) {
-      return filt.type.includes(tipo);
-      });
+  filtradosTipo = pokemonData.filter(function(filt) {
+    return filt.type.includes(tipo);
+  });
   return filtradosTipo;
+}
+
+function filterWeaknesses(weak) {
+  let filtradosDebilidad = '';
+  filtradosDebilidad = pokemonData.filter(function(filtrado) {
+    return filtrado.weaknesses.includes(weak);
+  });
+  return filtradosDebilidad;
 }
 
 window.pokemonFunciones = {
   filtrar,
   ordenarPoke,
   filterType,
+  filterWeaknesses,
 };

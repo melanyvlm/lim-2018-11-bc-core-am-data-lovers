@@ -4,16 +4,13 @@ const pokemonFunciones = window.pokemonFunciones;
 // mostrando pantalla de inicio
 
 document.getElementById('pantalla-inicio').style.display = 'block';
-document.getElementById('pantalla-equipos').style.display = 'none';
 document.getElementById('pantalla-cuatro').style.display = 'none';
 document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
 
 const btnBuscarPokemon = document.getElementById('buscar');
 const btnInicio = document.getElementById('inicio');
-const btnEquipos = document.getElementById('equipos');
 const btnPokemon = document.getElementById('pokemon');
 
-btnEquipos.addEventListener('click', irEquipos);
 btnPokemon.addEventListener('click', irPokemon);
 btnInicio.addEventListener('click', irInicio);
 btnBuscarPokemon.addEventListener('click', buscarPokemon);
@@ -23,42 +20,36 @@ function buscarPokemon() {
   document.getElementById('pantalla-equipos').style.display = 'none';
   document.getElementById('pantalla-cuatro').style.display = 'none';
 }
-function irEquipos() {
-  document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
-  document.getElementById('pantalla-inicio').style.display = 'none';
-  document.getElementById('pantalla-equipos').style.display = 'block';
-  document.getElementById('pantalla-cuatro').style.display = 'none';
-}
+
 function irPokemon() {
   document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
   document.getElementById('pantalla-inicio').style.display = 'none';
-  document.getElementById('pantalla-equipos').style.display = 'none';
   document.getElementById('pantalla-cuatro').style.display = 'block';
 }
 function irInicio() {
   document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
   document.getElementById('pantalla-inicio').style.display = 'block';
-  document.getElementById('pantalla-equipos').style.display = 'none';
   document.getElementById('pantalla-cuatro').style.display = 'none';
 }
 
 const ingresokm = document.getElementById('ingreso-km');
-const containerList = document.getElementById('container-list');
-const ordenalfabeto = document.getElementById('orden-alfabeto');
 const filtrotipo = document.getElementById('ingreso-type');
+const filtroWeak = document.getElementById('ingreso-weaknesses');
+const ordenalfabeto = document.getElementById('orden-alfabeto');
+const containerList = document.getElementById('container-list');
 const containerList2 = document.getElementById('container-list2');
 
 ingresokm.addEventListener('change', () => {
-    let ingresoValor = ingresokm.options[ingresokm.selectedIndex].value;
-    const saveArrayFiltrar = pokemonFunciones.filtrar(parseInt(ingresoValor));
-    let saveHijoPapa = [];
-    for (let i = 0; i < saveArrayFiltrar.length; i++) {
-      saveHijoPapa.push(`<div class="grid-item">
+  let ingresoValor = ingresokm.options[ingresokm.selectedIndex].value;
+  const saveArrayFiltrar = pokemonFunciones.filtrar(parseInt(ingresoValor));
+  let saveHijoPapa = [];
+  for (let i = 0; i < saveArrayFiltrar.length; i++) {
+    saveHijoPapa.push(`<div class="grid-item">
       <input type = "image" src="${saveArrayFiltrar[i].img}">
       <label>${saveArrayFiltrar[i].name}</label>
                         </div> `);
     containerList.innerHTML = saveHijoPapa.join('');
-    }
+  }
 });
 
 ordenalfabeto.addEventListener('change', () => {
@@ -71,24 +62,34 @@ ordenalfabeto.addEventListener('change', () => {
      <label>${saveArrayFiltrar2[i].name}</label>
                        </div> `);
     containerList.innerHTML = saveHijoPapa.join('');
-}
+  }
 });
 
 filtrotipo.addEventListener('change', () => {
-let tipo = filtrotipo.options[filtrotipo.selectedIndex].value;
-const saveArrayFiltrar3 = pokemonFunciones.filterType(tipo);
-let saveHijoPapa = [];
+  let tipo = filtrotipo.options[filtrotipo.selectedIndex].value;
+  const saveArrayFiltrar3 = pokemonFunciones.filterType(tipo);
+  let saveHijoPapa = [];
   for (let i = 0; i < saveArrayFiltrar3.length; i++) {
     saveHijoPapa.push(`<div class="grid-item">
     <input type = "image" src="${saveArrayFiltrar3[i].img}">
      <label>${saveArrayFiltrar3[i].name}</label>
                        </div> `);
     containerList.innerHTML = saveHijoPapa.join('');
-}
+  }
 });
 
-
-
+filtroWeak.addEventListener('change', () => {
+  let weak = filtroWeak.options[filtroWeak.selectedIndex].value;
+  const saveArrayFiltrar4 = pokemonFunciones.filterWeaknesses(weak);
+  let saveHijoPapa = [];
+  for (let i = 0; i < saveArrayFiltrar4.length; i++) {
+    saveHijoPapa.push(`<div class="grid-item">
+    <input type = "image" src="${saveArrayFiltrar4[i].img}">
+     <label>${saveArrayFiltrar4[i].name}</label>
+                       </div> `);
+    containerList.innerHTML = saveHijoPapa.join('');
+  }
+});
 const crearTemplateDeCard = (data) => {
   let templateListOfCards = '';
   // recorremos nuestro array con forEach
@@ -106,9 +107,9 @@ const crearTemplateDeCard = (data) => {
   `;
     // vamos concatenando cada li 
     templateListOfCards += card;
-  })
+  });
   containerList2.innerHTML = templateListOfCards;
-}
+};
 
 // ejecuntado funciona para pintar la data en mi html
-crearTemplateDeCard(pokemonData)
+crearTemplateDeCard(pokemonData);

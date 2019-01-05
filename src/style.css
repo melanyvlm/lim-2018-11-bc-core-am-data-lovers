@@ -8,14 +8,14 @@ box-sizing: border-box;
 body {
 margin: 50 px;
 background-position:center;
-background-image: url(https://image.freepik.com/vector-gratis/fondo-abstracto-poli-diseno_1048-8196.jpg);
+background-color: rgba(255, 247, 230, 0.938);
 background-repeat: no-repeat;
 background-size: 100% 100%;
 background-attachment: fixed;
 }
 header {
     width: 100%;
-    background: rgb(11, 12, 61);
+    background: rgb(67, 172, 53);
 }
 #boton-menu {
     display: none;
@@ -70,10 +70,13 @@ font-family:'Coming Soon', cursive;
   } 
 
   .grid-container > div {
-    background-color: rgb(243, 150, 28);
+    background-image: url(img/back-pokedex.png);
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
     text-align: center;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 25px;
     grid-gap: 50px;
   }
 
