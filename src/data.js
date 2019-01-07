@@ -61,9 +61,18 @@ function filterWeaknesses(weak) {
   return filtradosDebilidad;
 }
 
+function numPorTipo(tipo) {
+  let filtradosTipo = '';
+    filtradosTipo = pokemonData.filter(function(filt) {
+      return filt.type.includes(tipo);
+      });
+  return filtradosTipo.length;
+}
+
 window.pokemonFunciones = {
   filtrar,
   ordenarPoke,
   filterType,
   filterWeaknesses,
+  numPorTipo,
 };

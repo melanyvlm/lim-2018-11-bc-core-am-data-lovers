@@ -90,6 +90,19 @@ filtroWeak.addEventListener('change', () => {
     containerList.innerHTML = saveHijoPapa.join('');
   }
 });
+
+const boton = document.getElementById("go");
+const caja = document.getElementById("resultado-numero");
+
+boton.addEventListener("click", manejadorClick);
+function manejadorClick (){
+const tipo = document.getElementById("tipo-numero").value;
+let ya = pokemonFunciones.numPorTipo(tipo);
+caja.value= ya
+}
+
+
+
 const crearTemplateDeCard = (data) => {
   let templateListOfCards = '';
   // recorremos nuestro array con forEach
