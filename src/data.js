@@ -7,9 +7,8 @@
   return 'example';
 };*/
 
-let ingresoValor = parseInt(document.getElementById('ingreso-km').value);
 function filtrar(ingresoValor) {
-  let prueba = "";
+  let prueba = '';
   if (ingresoValor === 2) {
     prueba = pokemonData.filter(recorrido => recorrido.egg === '2 km');
     
@@ -63,9 +62,9 @@ function filterWeaknesses(weak) {
 
 function numPorTipo(tipo) {
   let filtradosTipo = '';
-    filtradosTipo = pokemonData.filter(function(filt) {
-      return filt.type.includes(tipo);
-      });
+  filtradosTipo = pokemonData.filter(function(filt) {
+    return filt.type.includes(tipo);
+  });
   return filtradosTipo.length;
 }
 
