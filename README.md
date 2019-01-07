@@ -20,7 +20,9 @@ Para iniciar con el proyecto, comenzamos haciendo una encuesta virtual dentro de
 ## Diseño de Interfaz de Usuario
 Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando varias veces, luego utilizamos Balsamiq Mockup y obtuvimos nuestro diseño en alta fidelidad después de varios cambios y utilizando Figma. Hemos buscado realizar un diseño de interfaz simple, que pueda ser entendido de manera rápida y con la información requerida por los usuarios.
 <p>
-<a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/">http://picasion.com/</a><br/> </p>
+<a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+
+<p><a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="433" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/">http://picasion.com/</a><br/> </p>
 
 ### Prototipos a lápiz y papel
 ![Prototipo 1](https://fotos.subefotos.com/1e75f8cd70232fc5600f19f461a0ea3fo.jpg) 
