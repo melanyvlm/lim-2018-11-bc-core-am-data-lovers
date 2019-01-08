@@ -22,8 +22,7 @@ Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando var
 
 ### Prototipos a lápiz y papel
 
-<p>
-<a href="http://picasion.com/"><img align = "left" src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p><a href="http://picasion.com/"><img align = "left" src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
 <p><a href="http://picasion.com/"><img align="rigth" src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
@@ -50,5 +49,6 @@ Al realizar testeos en las mismas personas que participaron en la encuesta, enco
 
 La mayoría de nuestras encuestas se realizó vía redes sociales siendo "Facebook" el más usado.
 
-<p> <img align="rigth" src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p> <img align="rigth" src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
+<p><img align="left"  src="https://user-images.githubusercontent.com/45083232/50809635-d6577a00-12d2-11e9-8893-7368f82b53ca.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
