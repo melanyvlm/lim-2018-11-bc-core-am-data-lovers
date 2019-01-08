@@ -11,17 +11,18 @@
 
 ***
 ## Preambulo 
- Cultura Pokemon es una página interactiva que nos muestra el mundo del juego Pokemoon Go. Es una página web diseñada para aquellos que deseen empezar a jugar. 
- ¿Quieres ser un maestro Pokemon pero no sabes cómo empezar? Cultura Pokemon te ayudará en tu aventura por este mundo brindando lo necesario para iniciar tu camino a ser un maaestro Pokemon.¡Buena suerte! 
+ Cultura Pokemon es una página interactiva que nos muestra el mundo del juego Pokemoon Go. Es una página web diseñada para aquellos que deseen empezar a jugar o sean jugadores principiantes. 
+ ¿Quieres ser un maestro Pokemon pero no sabes cómo empezar? Cultura Pokemon te ayudará en tu aventura por este mundo brindando lo necesario para iniciar tu camino a ser un maestro Pokemon.¡Buena suerte! 
 
 ## Definición de Producto
 La siguiente página Web está construida para jugadores novatos del popular juego "Pokémon Go". La página presenta datos básicos que el jugador necesita para empezar o avanzar en el juego. Tiene reseñas y explicaciones para que el usuario pueda entenderlo, incluso si nunca antes lo ha jugado. La página pretende dar la información necesaria básica acerca del juego, resolviendo así el problema de no poder avanzar en el juego porque no se conoce la información básica.
 
 ## Proceso de Diseño
-Para iniciar con el proyecto, comenzamos haciendo una encuesta virtual dentro de nuestro entorno social para encontrar personas que jueguen o hayan jugado "Pokémon Go". Cuando ya teníamos el grupo de personas que aseguraban haberlo jugado,consultamos quienes podían y estaban dispuestos a pasar una entrevista. Hicimos en total cuatro entrevistas, dos de estas personas jugaban "Pokémon Go" de manera regular y tenían bastante conocimiento del juego. Nuestro usuario objetivo fueron aquellas dos personas que no tenían mucho conocimiento (una de ellas , empezó a jugarlo hace aproximadamente 2 meses y la segunda afirmó que lo jugó alguna vez y por un tiempo, y habia retornado a jugarlo actualmente).
+### Encuesta y entrevistas
+Para iniciar con el proyecto, comenzamos haciendo una encuesta virtual dentro de nuestro entorno social para encontrar personas que jueguen o hayan jugado "Pokémon Go" . utilizamos para ello la red social "Facebook". Cuando ya teníamos el grupo de personas que aseguraban haberlo jugado, consultamos quienes podían y estaban dispuestos a pasar una entrevista. Hicimos en total cuatro entrevistas, dos de estas personas jugaban "Pokémon Go" de manera regular y tenían bastante conocimiento del juego. Nuestro usuario objetivo fueron aquellas dos personas que no tenían mucho conocimiento (una de ellas , empezó a jugarlo hace aproximadamente 2 meses y la segunda afirmó que lo jugó alguna vez y por un tiempo, y habia retornado a jugarlo actualmente).
 
 ## Diseño de Interfaz de Usuario
-Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando varias veces, luego utilizamos Balsamiq Mockup y obtuvimos nuestro diseño en alta fidelidad después de varios cambios y utilizando Figma. Hemos buscado realizar un diseño de interfaz simple, que pueda ser entendido de manera rápida y con la información requerida por los usuarios.
+Empezamos haciendo un prototipado básico a lapiz y papel que fue cambiando varias veces, luego utilizamos Balsamiq Mockup y obtuvimos nuestro diseño en alta fidelidad después de varios cambios y utilizando Figma. Hemos buscado realizar un diseño de interfaz simple, que pueda ser entendido de manera rápida y con la información requerida por los usuarios.
 
 ### Prototipos a lápiz y papel
 
@@ -40,7 +41,7 @@ Como jugador de Pokémon Go, me gustaría saber las debilidades de los Pokémons
 ### Historia de Usuario 3
 Como jugador principiante de Pokémon Go, me gustaría ver todos los pokémons ordenados alfabéticamente para saber cuales me faltan y para tener conocimiento de todos los Pokémos que existen.
 ### Historia de Usuario 4
-Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons y así compararlos con cuántos tengo para enfrentarlos en una batalla. 
+Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons y sus cantidades para poder compararlos con los que tengo y saber cuáles me faltan.
 
 ## Planificación del proyecto 
 
@@ -51,12 +52,11 @@ Realizamos las tareas de acuerdo a las historias de usuario que poníamos para l
 
 ## Testeos de Usabilidad
 Al realizar testeos en las mismas personas que participaron en la encuesta, encontramos las siguientes dificultades:
--Cuando ellos accedian al boton del menú "Atrápalos todos" , pensaban encontrar tips o formas en los que les sería más fácil llegar a conseguir la mayor cantidad de pokémons.
--Al ser un jugador novato, en el momento de filtrar por kilómetros no entendió lo que eso significaba.
+*-Cuando ellos accedian al boton del menú "Atrápalos todos" , pensaban encontrar tips o formas en los que les sería más fácil llegar a conseguir la mayor cantidad de pokémons.
+*-Al ser un jugador novato, en el momento de filtrar por kilómetros no entendió lo que eso significaba.
+*-El botón menú en pantalla de celular aparece para las opciones pero no desaparece automáticamente, lo que dificulta la búsqueda.
+*-
 
-### Encuestas
-
-La mayoría de nuestras encuestas se realizó vía redes sociales siendo "Facebook" el más usado.
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
