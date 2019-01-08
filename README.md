@@ -23,9 +23,9 @@ Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando var
 ### Prototipos a lápiz y papel
 
 <p>
-<a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<a href="http://picasion.com/"><img align = "left" src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
-<p><a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="433" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/">http://picasion.com/</a><br/> </p>
+<p><a href="http://picasion.com/"><img align="rigth" src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="433" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
 ### Prototipo de Alta fidelidad
 
