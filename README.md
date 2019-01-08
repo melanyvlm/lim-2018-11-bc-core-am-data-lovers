@@ -39,6 +39,14 @@ Como jugador principiante de Pokémon Go, me gustaría ver todos los pokémons o
 ### Historia de Usuario 4
 Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons y así compararlos con cuántos tengo para enfrentarlos en una batalla. 
 
+## Planificación del proyecto 
+
+## Tablero Scrum
+
+Realizamos las tareas de acuerdo a las historias de usuario que poníamos para luego desglozarlos en tareas pequeñas y así mostrarlas 
+
+## Futuras Mejoras
+
 
 ## Testeos de Usabilidad
 Al realizar testeos en las mismas personas que participaron en la encuesta, encontramos las siguientes dificultades:
