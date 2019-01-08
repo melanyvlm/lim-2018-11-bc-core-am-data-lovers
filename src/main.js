@@ -17,7 +17,7 @@ btnBuscarPokemon.addEventListener('click', buscarPokemon);
 function buscarPokemon() {
   document.getElementById('pantalla-buscar-pokemon').style.display = 'block';
   document.getElementById('pantalla-inicio').style.display = 'none';
-  document.getElementById('pantalla-equipos').style.display = 'none';
+  // document.getElementById('pantalla-equipos').style.display = 'none';
   document.getElementById('pantalla-cuatro').style.display = 'none';
 }
 
