@@ -7,7 +7,7 @@
 * [Diseño de Interfaz de Usuario](#Diseño-de-Interfaz-de-Usuario)
 * [Historias de Usuarios](#Historias-de-Usuario)
 * [Testeos de Usabilidad](#testeos-de-usabilidad)
-* [Checklist](#checklist)
+* [Planificación del proyecto](#planificacion-del-producto)
 
 ***
 
@@ -44,9 +44,7 @@ Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons 
 ## Tablero Scrum
 
 Realizamos las tareas de acuerdo a las historias de usuario que poníamos para luego desglozarlos en tareas pequeñas y así mostrarlas 
-
-## Futuras Mejoras
-
+https://user-images.githubusercontent.com/45083232/50833776-522be380-1320-11e9-8c12-febc6d1bd5e2.jpg
 
 ## Testeos de Usabilidad
 Al realizar testeos en las mismas personas que participaron en la encuesta, encontramos las siguientes dificultades:
@@ -57,6 +55,8 @@ Al realizar testeos en las mismas personas que participaron en la encuesta, enco
 
 La mayoría de nuestras encuestas se realizó vía redes sociales siendo "Facebook" el más usado.
 
-<p> <img align="rigth" src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p> <img align="center" src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
-<p><img align="left"  src="https://user-images.githubusercontent.com/45083232/50809635-d6577a00-12d2-11e9-8893-7368f82b53ca.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p><img align="center"  src="https://user-images.githubusercontent.com/45083232/50809635-d6577a00-12d2-11e9-8893-7368f82b53ca.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+
+## Futuras Mejoras
