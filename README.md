@@ -22,9 +22,9 @@ Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando var
 
 ### Prototipos a lápiz y papel
 
-<p><a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p align="center"><a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
-<p><a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p align="center"><a href="http://picasion.com/"><img src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
 ### Prototipo de Alta fidelidad
 ![Prototipo 8](https://fotos.subefotos.com/32ddbd3278fd53b7fb567d23f2d323f0o.jpg)
@@ -44,7 +44,7 @@ Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons 
 ## Tablero Scrum
 
 Realizamos las tareas de acuerdo a las historias de usuario que poníamos para luego desglozarlos en tareas pequeñas y así mostrarlas 
-https://user-images.githubusercontent.com/45083232/50833776-522be380-1320-11e9-8c12-febc6d1bd5e2.jpg
+<p>![0c683cf5-86ca-48d3-96e9-b76ab3a0175d](https://user-images.githubusercontent.com/45083232/50834336-c4e98e80-1321-11e9-900b-9bab73f2ae05.jpg)</p>
 
 ## Testeos de Usabilidad
 Al realizar testeos en las mismas personas que participaron en la encuesta, encontramos las siguientes dificultades:
@@ -55,8 +55,8 @@ Al realizar testeos en las mismas personas que participaron en la encuesta, enco
 
 La mayoría de nuestras encuestas se realizó vía redes sociales siendo "Facebook" el más usado.
 
-<p> <img align="center" src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
-<p><img align="center"  src="https://user-images.githubusercontent.com/45083232/50809635-d6577a00-12d2-11e9-8893-7368f82b53ca.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/45083232/50809635-d6577a00-12d2-11e9-8893-7368f82b53ca.jpeg" width="300" height="420" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
 ## Futuras Mejoras
