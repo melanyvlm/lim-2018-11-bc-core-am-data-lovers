@@ -25,9 +25,10 @@ Empezamos haciendo un prototipado básico  a lapiz y papel que fue cambiando var
 <p>
 <a href="http://picasion.com/"><img align = "left" src="http://i.picasion.com/pic88/a9323c8a46f33cbf4c31f24c90b1df07.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
-<p><a href="http://picasion.com/"><img align="rigth" src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="433" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
+<p><a href="http://picasion.com/"><img align="rigth" src="http://i.picasion.com/pic88/cdceba5106000ad6cf4a9cff70fb4adc.gif" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
 ### Prototipo de Alta fidelidad
+![Prototipo 8](https://fotos.subefotos.com/32ddbd3278fd53b7fb567d23f2d323f0o.jpg)
 
 ## Historias de usuario
 ### Historia de Usuario 1
@@ -36,10 +37,9 @@ Como Jugador de Pokemon Go, me gustaría saber qué Pokemons obtendría al recor
 Como jugador de Pokémon Go, me gustaría saber las debilidades de los Pokémons, para saber a quienes puedo enfrentar en las batallas.
 ### Historia de Usuario 3
 Como jugador principiante de Pokémon Go, me gustaría ver todos los pokémons ordenados alfabéticamente para saber cuales me faltan y para tener conocimiento de todos los Pokémos que existen.
-#### Historia de Usuario 4
+### Historia de Usuario 4
 Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons y así compararlos con cuántos tengo para enfrentarlos en una batalla. 
 
-![Prototipo 8](https://fotos.subefotos.com/32ddbd3278fd53b7fb567d23f2d323f0o.jpg)
 
 ## Testeos de Usabilidad
 Al realizar testeos en las mismas personas que participaron en la encuesta, encontramos las siguientes dificultades:
@@ -49,28 +49,6 @@ Al realizar testeos en las mismas personas que participaron en la encuesta, enco
 ### Encuestas
 
 La mayoría de nuestras encuestas se realizó vía redes sociales siendo "Facebook" el más usado.
-<img align="right" width="600" height ="200" src="![whatsapp image 2019-01-07 at 1 13 12 pm](https://user-images.githubusercontent.com/45083232/50792665-b94f8680-1293-11e9-89ba-fcc6a940ae28.jpeg)">
 
-<img align="right" width="600" height ="200" src="![whatsapp image 2019-01-07 at 1 13 34 pm](https://user-images.githubusercontent.com/45083232/50808911-c5a50500-12ce-11e9-92b5-169338294dc6.jpeg)">
+<p> <img align="rigth" src="https://user-images.githubusercontent.com/45083232/50809402-3c430200-12d1-11e9-9015-47a92f8a8c75.jpeg" width="300" height="426" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a><br/> </p>
 
-
-## Checklist
-
-* [ ] Usa VanillaJS.
-* [ ] No hace uso de `this`.
-* [ ] Pasa linter (`npm pretest`)
-* [ ] Pasa tests (`npm test`)
-* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
-  lines y branches.
-* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
-* [ ] Incluye historias de usuario en `README.md`.
-* [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
-  `README.md`.
-* [ ] Incluye _Diseño de la Interfaz de Usuario_ (prototipo de alta fidelidad)
-  en `README.md`.
-* [ ] Incluye link a Zeplin en `README.md`.
-* [ ] Incluye el listado de problemas que detectaste a través de tests de
-  usabilidad en el `README.md`.
-* [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
-* [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
-* [ ] UI: Permite filtrar data en base a una condición.
