@@ -49,13 +49,20 @@ Al realizar testeos en las mismas personas que participaron en la encuesta, enco
 ### Encuestas
 
 La mayoría de nuestras encuestas se realizó vía redes sociales siendo "Facebook" el más usado.
+<img align="right" width="600" height ="200" src="![whatsapp image 2019-01-07 at 1 13 12 pm](https://user-images.githubusercontent.com/45083232/50792665-b94f8680-1293-11e9-89ba-fcc6a940ae28.jpeg)">
 
-![whatsapp image 2019-01-07 at 1 13 12 pm](https://user-images.githubusercontent.com/45083232/50792665-b94f8680-1293-11e9-89ba-fcc6a940ae28.jpeg)
-
-![whatsapp image 2019-01-07 at 1 13 34 pm](https://user-images.githubusercontent.com/45083232/50792695-d1bfa100-1293-11e9-8e09-449ec6ad06ed.jpeg)
-
+<img align="right" width="600" height ="200" src="![whatsapp image 2019-01-07 at 1 13 34 pm](https://user-images.githubusercontent.com/45083232/50808911-c5a50500-12ce-11e9-92b5-169338294dc6.jpeg)">
 
 
+## Checklist
+
+* [ ] Usa VanillaJS.
+* [ ] No hace uso de `this`.
+* [ ] Pasa linter (`npm pretest`)
+* [ ] Pasa tests (`npm test`)
+* [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y
+  lines y branches.
+* [ ] Incluye _Definición del producto_ clara e informativa en `README.md`.
 * [ ] Incluye historias de usuario en `README.md`.
 * [ ] Incluye _sketch_ de la solución (prototipo de baja fidelidad) en
   `README.md`.
