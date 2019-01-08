@@ -44,7 +44,7 @@ Como jugador de Pokemón Go me gustaría poder visualizar los tipos de Pokemons 
 ## Tablero Scrum
 
 Realizamos las tareas de acuerdo a las historias de usuario que poníamos para luego desglozarlos en tareas pequeñas y así mostrarlas 
-<p>![0c683cf5-86ca-48d3-96e9-b76ab3a0175d](https://user-images.githubusercontent.com/45083232/50834336-c4e98e80-1321-11e9-900b-9bab73f2ae05.jpg)</p>
+![Tablero scrum](https://fotos.subefotos.com/46325a3056e51720745325a27d4ae8eao.jpg)
 
 ## Testeos de Usabilidad
 Al realizar testeos en las mismas personas que participaron en la encuesta, encontramos las siguientes dificultades:
