@@ -10,6 +10,9 @@
 * [Planificación del proyecto](#planificacion-del-producto)
 
 ***
+## Preambulo 
+ Cultura Pokemon es una página interactiva que nos muestra el mundo del juego Pokemoon Go. Es una página web diseñada para aquellos que deseen empezar a jugar. 
+ ¿Quieres ser un maestro Pokemon pero no sabes cómo empezar? Cultura Pokemon te ayudará en tu aventura por este mundo brindando lo necesario para iniciar tu camino a ser un maaestro Pokemon.¡Buena suerte! 
 
 ## Definición de Producto
 La siguiente página Web está construida para jugadores novatos del popular juego "Pokémon Go". La página presenta datos básicos que el jugador necesita para empezar o avanzar en el juego. Tiene reseñas y explicaciones para que el usuario pueda entenderlo, incluso si nunca antes lo ha jugado. La página pretende dar la información necesaria básica acerca del juego, resolviendo así el problema de no poder avanzar en el juego porque no se conoce la información básica.
