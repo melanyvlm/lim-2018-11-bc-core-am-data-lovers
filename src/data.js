@@ -6,8 +6,7 @@
 /* const example = () => {
   return 'example';
 };*/
-
-function filtrar(ingresoValor) {
+function filtrar(pokemonData, ingresoValor) {
   let prueba = [];
   
   if (ingresoValor === 2) {
@@ -21,7 +20,7 @@ function filtrar(ingresoValor) {
   return prueba;
 }
 
-function ordenarPoke(orden) {
+function ordenarPoke(pokemonData, orden) {
   let ordenados = [];
 
   if (orden === 1) {
@@ -38,7 +37,7 @@ function ordenarPoke(orden) {
   return ordenados;  
 }  
 
-function filterType(tipo) {
+function filterType(pokemonData, tipo) {
   let filtradosTipo = [];
   filtradosTipo = pokemonData.filter((filt) => {
     return filt.type.includes(tipo);
@@ -46,7 +45,7 @@ function filterType(tipo) {
   return filtradosTipo;
 }
 
-function filterWeaknesses(weak) {
+function filterWeaknesses(pokemonData, weak) {
   let filtradosDebilidad = [];
   filtradosDebilidad = pokemonData.filter((filtrado) => {
     return filtrado.weaknesses.includes(weak);
@@ -54,7 +53,7 @@ function filterWeaknesses(weak) {
   return filtradosDebilidad;
 }
 
-function numPorTipo(tipo) {
+function numPorTipo(pokemonData, tipo) {
   let filtradosTipo = [];
   filtradosTipo = pokemonData.filter((filt) => {
     return filt.type.includes(tipo);

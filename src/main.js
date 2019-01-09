@@ -1,5 +1,6 @@
-const pokemonData = window.POKEMON.pokemon;
+
 const pokemonFunciones = window.pokemonFunciones;
+const pokemonDataArray = window.POKEMON.pokemon;
 
 // mostrando pantalla de inicio
 
@@ -41,7 +42,7 @@ const containerList2 = document.getElementById('container-list2');
 
 ingresokm.addEventListener('change', () => {
   let ingresoValor = ingresokm.options[ingresokm.selectedIndex].value;
-  const saveArrayFiltrar = pokemonFunciones.filtrar(parseInt(ingresoValor));
+  const saveArrayFiltrar = pokemonFunciones.filtrar(pokemonDataArray, parseInt(ingresoValor));
   let saveHijoPapa = [];
   for (let i = 0; i < saveArrayFiltrar.length; i++) {
     saveHijoPapa.push(`<div class="grid-item">
@@ -54,7 +55,7 @@ ingresokm.addEventListener('change', () => {
 
 ordenalfabeto.addEventListener('change', () => {
   let orden = ordenalfabeto.options[ordenalfabeto.selectedIndex].value;
-  const saveArrayFiltrar2 = pokemonFunciones.ordenarPoke(parseInt(orden));
+  const saveArrayFiltrar2 = pokemonFunciones.ordenarPoke(pokemonDataArray, parseInt(orden));
   let saveHijoPapa = [];
   for (let i = 0; i < saveArrayFiltrar2.length; i++) {
     saveHijoPapa.push(`<div class="grid-item">
@@ -67,7 +68,7 @@ ordenalfabeto.addEventListener('change', () => {
 
 filtrotipo.addEventListener('change', () => {
   let tipo = filtrotipo.options[filtrotipo.selectedIndex].value;
-  const saveArrayFiltrar3 = pokemonFunciones.filterType(tipo);
+  const saveArrayFiltrar3 = pokemonFunciones.filterType(pokemonDataArray, tipo);
   let saveHijoPapa = [];
   for (let i = 0; i < saveArrayFiltrar3.length; i++) {
     saveHijoPapa.push(`<div class="grid-item">
@@ -80,7 +81,7 @@ filtrotipo.addEventListener('change', () => {
 
 filtroWeak.addEventListener('change', () => {
   let weak = filtroWeak.options[filtroWeak.selectedIndex].value;
-  const saveArrayFiltrar4 = pokemonFunciones.filterWeaknesses(weak);
+  const saveArrayFiltrar4 = pokemonFunciones.filterWeaknesses(pokemonDataArray, weak);
   let saveHijoPapa = [];
   for (let i = 0; i < saveArrayFiltrar4.length; i++) {
     saveHijoPapa.push(`<div class="grid-item">
@@ -97,7 +98,7 @@ const caja = document.getElementById("resultado-numero");
 boton.addEventListener("click", manejadorClick);
 function manejadorClick (){
 const tipo = document.getElementById("tipo-numero").value;
-let ya = pokemonFunciones.numPorTipo(tipo);
+let ya = pokemonFunciones.numPorTipo(pokemonDataArray, tipo);
 caja.value= ya
 }
 
@@ -125,4 +126,4 @@ const crearTemplateDeCard = (data) => {
 };
 
 // ejecuntado funciona para pintar la data en mi html
-crearTemplateDeCard(pokemonData);
+crearTemplateDeCard(pokemonDataArray);

@@ -38,6 +38,7 @@
  "extends": "eslint:recommended",
  "globals": {
    "pokemonData":false,
-   "pokemonFunciones":false
+   "pokemonFunciones":false,
+   "POKEMON": false
  }
 }
