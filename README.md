@@ -32,6 +32,9 @@ Empezamos haciendo un prototipado básico a lapiz y papel que fue cambiando vari
 
 ### Prototipo de Alta fidelidad
 ![Prototipo 8](https://fotos.subefotos.com/32ddbd3278fd53b7fb567d23f2d323f0o.jpg)
+### Enlace Zeplin
+[Zeplin](https://zpl.io/bJ91mKJ)
+
 
 ## Historias de usuario
 ### Historia de Usuario 1
