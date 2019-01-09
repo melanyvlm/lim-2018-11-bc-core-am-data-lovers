@@ -1,70 +1,64 @@
 
-
 *{
-margin:0 ;
-padding:0;
-box-sizing: border-box;
-  }
-body {
-margin: 50 px;
-background-position:center;
-background-color: rgba(197, 213, 238, 0.938);
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-attachment: fixed;
-}
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+      }
+
+      body {
+        margin: 0 px;
+        background-position:center;
+        background-color: rgba(255, 255, 255, 0.938);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        }
 header {
-    width: 100%;
+    widows: 100%;
     background: rgba(41, 113, 161, 0.973);
-}
-#boton-menu {
-    display: none;
-}
-header label {
-    display: none;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-}
-header label:hover {
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.3);
-}
-.menu ul {
-    margin: 0px;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-.menu li {
-border-left: 1px solid #fff;
-}
-.menu li:hover{
-    background: rgba(0, 0, 0, 0.3);
-}
-.menu li a {
-display: block;
-padding: 15px 20px;
-color:#fff;
-text-decoration: none;
-font-size: 20px;
-font-family: 'Roboto Slab', serif;
-}
 
-.letter-type2 {
-    padding: 100px;
-    font-size: 50px;
-    width: 30%;
-    text-align: center;
-    font-family: 'Ruda', sans-serif;
-    background-position: center;
 }
-
+#btn-menu {
+    display:none;
+}
 .letter-type {
     font-size: 30px;
 }
- .grid-container {
+header label {
+    display:none;
+    width: 30px;
+    height:30px;
+    padding:10px;
+    border-right: 1px solid #ffff;
+}
+header label:hover/*evento del cursor*/ {
+cursor: pointer;
+background:rgba(0,0,0,0.3);
+}
+
+.menu ul {
+    margin: 0%;
+    list-style: none;
+    padding: 0;
+    display:flex;
+    justify-content: flex-end;
+
+}
+.menu li {
+    display:block;
+    padding: 15px 20px;
+    color:#fff;
+    text-decoration: none;
+    border-right-style:ridge;
+  /*  flex-grow:1; Hace que todo los menú esten en toda la linea */
+}
+.menu li:hover {
+    background:rgba(0,0,0,0.3)
+}
+
+
+/* Contenedor */
+.grid-container {
     display:grid;
     grid-template-columns: 200px 200px 200px 200px 200px;
     grid-gap: 72px;
@@ -74,58 +68,39 @@ font-family: 'Roboto Slab', serif;
 
   .grid-container > div {
     background-image: url(img/back-pokedex.png);
-    /*background-repeat: no-repeat;
+    background-repeat: no-repeat;
 background-size: 100% 100%;
-background-attachment: fixed;*/
-    text-align: center;
+background-attachment: fixed;
+   text-align: center;
     padding: 20px ;
     font-size: 20px;
     grid-gap: 50px; 
-    border-radius: 30px;
-
+    border-radius: 30px; 
   }
-  
-    
+@media (max-width:768px) {
 
-/* .grid-item {
- border: 1px solid rgba(0, 0, 0, 0.8);
- padding: 20px;
- text-align: center;
-} */
-@media (max-width:750px) {
 header label {
-display:block;
+    display:block;
 }
 .menu {
-position: absolute;
-background: rgb(63, 179, 218);
-width: 70%;
-margin-left: -70%;
-transition: all 0.5s;
-}
+    position: absolute;
+    background: rgb(63, 179, 218);
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.7s;
+    }
 .menu ul {
- flex-direction: column;
+    flex-direction:column;
 }
 .menu li {
-border-top: 1px solid #fff;
+    border-top:1px solid #fff;
 }
-#boton-menu:checked ~ .menu{
-margin: 0;
-font-size: 20px;
+.contenedor {
+    widows: 58%;
+    margin:auto;
 }
-.grid-container {
-    display:grid;
-    grid-template-columns: 200px 200px 200px ;
-    grid-gap: 20px;
-    padding: 47px;
-    background-size: 70%;
-
-  } 
-}
-/* Estilo de CSS para la pagina de inicio */
-#pantalla-inicio {
-background-image: url(img/park.jpg);
-background-size:100% 100%;
+#btn-menu:checked ~ .menu {
 margin:0;
 }
 
+}
