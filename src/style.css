@@ -113,6 +113,14 @@ border-top: 1px solid #fff;
 margin: 0;
 font-size: 20px;
 }
+.grid-container {
+    display:grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-gap: 20px;
+    padding: 47px;
+    background-size: 70%;
+
+  } 
 }
 /* Estilo de CSS para la pagina de inicio */
 #pantalla-inicio {
