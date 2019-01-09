@@ -43,67 +43,64 @@ const containerList2 = document.getElementById('container-list2');
 ingresokm.addEventListener('change', () => {
   let ingresoValor = ingresokm.options[ingresokm.selectedIndex].value;
   const saveArrayFiltrar = pokemonFunciones.filtrar(pokemonDataArray, parseInt(ingresoValor));
-  let saveHijoPapa = [];
+  let saveHuevos = [];
   for (let i = 0; i < saveArrayFiltrar.length; i++) {
-    saveHijoPapa.push(`<div class="grid-item">
+    saveHuevos.push(`<div class="grid-item">
       <input type = "image" src="${saveArrayFiltrar[i].img}">
       <label>${saveArrayFiltrar[i].name}</label>
                         </div> `);
-    containerList.innerHTML = saveHijoPapa.join('');
+    containerList.innerHTML = saveHuevos.join('');
   }
 });
 
 ordenalfabeto.addEventListener('change', () => {
   let orden = ordenalfabeto.options[ordenalfabeto.selectedIndex].value;
   const saveArrayFiltrar2 = pokemonFunciones.ordenarPoke(pokemonDataArray, parseInt(orden));
-  let saveHijoPapa = [];
+  let saveOrden = [];
   for (let i = 0; i < saveArrayFiltrar2.length; i++) {
-    saveHijoPapa.push(`<div class="grid-item">
+    saveOrden.push(`<div class="grid-item">
     <input type = "image" src="${saveArrayFiltrar2[i].img}">
      <label>${saveArrayFiltrar2[i].name}</label>
                        </div> `);
-    containerList.innerHTML = saveHijoPapa.join('');
+    containerList.innerHTML = saveOrden.join('');
   }
 });
 
 filtrotipo.addEventListener('change', () => {
   let tipo = filtrotipo.options[filtrotipo.selectedIndex].value;
   const saveArrayFiltrar3 = pokemonFunciones.filterType(pokemonDataArray, tipo);
-  let saveHijoPapa = [];
+  let saveTipo = [];
   for (let i = 0; i < saveArrayFiltrar3.length; i++) {
-    saveHijoPapa.push(`<div class="grid-item">
+    saveTipo.push(`<div class="grid-item">
     <input type = "image" src="${saveArrayFiltrar3[i].img}">
      <label>${saveArrayFiltrar3[i].name}</label>
                        </div> `);
-    containerList.innerHTML = saveHijoPapa.join('');
+    containerList.innerHTML = saveTipo.join('');
   }
 });
 
 filtroWeak.addEventListener('change', () => {
   let weak = filtroWeak.options[filtroWeak.selectedIndex].value;
   const saveArrayFiltrar4 = pokemonFunciones.filterWeaknesses(pokemonDataArray, weak);
-  let saveHijoPapa = [];
+  let saveDebilidad = [];
   for (let i = 0; i < saveArrayFiltrar4.length; i++) {
-    saveHijoPapa.push(`<div class="grid-item">
+    saveDebilidad.push(`<div class="grid-item">
     <input type = "image" src="${saveArrayFiltrar4[i].img}">
      <label>${saveArrayFiltrar4[i].name}</label>
                        </div> `);
-    containerList.innerHTML = saveHijoPapa.join('');
+    containerList.innerHTML = saveDebilidad .join('');
   }
 });
 
-const boton = document.getElementById("go");
-const caja = document.getElementById("resultado-numero");
+const boton = document.getElementById('go');
+const caja = document.getElementById('resultado-numero');
 
-boton.addEventListener("click", manejadorClick);
-function manejadorClick (){
-const tipo = document.getElementById("tipo-numero").value;
-let ya = pokemonFunciones.numPorTipo(pokemonDataArray, tipo);
-caja.value= ya
+boton.addEventListener('click', manejadorClick);
+function manejadorClick() {
+  const tipo = document.getElementById('tipo-numero').value;
+  let ya = pokemonFunciones.numPorTipo(pokemonDataArray, tipo);
+  caja.value = ya;
 }
-
-
-
 const crearTemplateDeCard = (data) => {
   let templateListOfCards = '';
   // recorremos nuestro array con forEach
