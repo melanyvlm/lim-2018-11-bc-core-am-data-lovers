@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
  </head>
   <body>
   <header>
@@ -20,14 +21,14 @@
       </nav>
   </header>
     <div id = "pantalla-buscar-pokemon"> 
-      <label class="letter-type">Búsqueda por </label>
-      <select  id="ingreso-km">
+      <div class="letter-type">BÚSQUEDA POR: </div>
+      <select  id="ingreso-km" class="select"> 
       <option>Kilómetros</option>
       <option value="2">2km</option>
       <option value="5">5km</option>
       <option value="10">10km</option>
       </select>
-      <select  id="ingreso-type">
+      <select  id="ingreso-type" class="select">
       <option>Tipos </option>
       <option value="Water">Agua</option>
       <option value="Electric">Eléctrico</option>
@@ -46,7 +47,7 @@
       <option value="Ghost">Fantasma</option>
 
       </select>
-      <select id="ingreso-weaknesses">
+      <select id="ingreso-weaknesses" class="select"> 
         <option>Debilidades </option>
         <option value="Water">Agua</option>
         <option value="Ground">Tierra</option>
@@ -66,13 +67,13 @@
         <option value="Ghost">Fantasma</option>
 
         </select>
-      <select name="ordenados" id="orden-alfabeto">
+      <select name="ordenados" id="orden-alfabeto" class="select">
       <option>Orden alfabético </option>
       <option value= "1" >A-Z</option>
       <option value= "2" >Z-A</option>
       </select>
       <div id= "container-list" class = "grid-container"></div> 
-      <select name="ingreso-type" id="tipo-numero">
+      <select name="ingreso-type" id="tipo-numero" class="select">
         <option>Tipo </option>
         <option value="Water">Agua</option>
         <option value="Ground">Tierra</option>
@@ -91,7 +92,7 @@
         <option value="Ghost">Fantasma</option>
         <option value="Electric">Electrico</option>
         </select>
-      <button type="button" id="go">Calcular</button>
+      <button type="button" id="go" class="select">Calcular</button>
       <div>
         <input type="text" name="numero-por-tipos" id="resultado-numero">
       </div>
@@ -99,11 +100,10 @@
 
    <div id="pantalla-inicio">
    <div class="letter-type2">¡ Conoce y atrapa Pokémon en el mundo real !</div></div>
-     <div id="pantalla-cuatro">
+     <div id="pantalla-card">
   <div id="container-list2" class = "grid-container">
   </div>
 </div>
-
     <!-- <script src="./data/injuries/injuries.js"></script> -->
     <script src="./data/pokemon/pokemon.js"></script>
     <!-- <script src="./data/steam/steam.js"></script> -->

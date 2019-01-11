@@ -1,18 +1,16 @@
 
+body {
+    background-image:  url("https://www.tec.com.pe/wp-content/uploads/2017/08/Pikachu-Pokemon-Go.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+   }
 *{
     margin:0 ;
     padding:0;
     box-sizing: border-box;
       }
-
-      body {
-        margin: 0 px;
-        background-position:center;
-        background-color: rgba(255, 255, 255, 0.938);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-attachment: fixed;
-        }
+     
 header {
     widows: 100%;
     background: rgba(41, 113, 161, 0.973);
@@ -23,7 +21,11 @@ header {
 }
 .letter-type {
     font-size: 30px;
+    margin-left: 40%;
+    font-family: 'Staatliches', cursive;
+    padding: 20px;
 }
+
 header label {
     display:none;
     width: 30px;
@@ -69,14 +71,29 @@ background:rgba(0,0,0,0.3);
   .grid-container > div {
     background-image: url(img/back-pokedex.png);
     background-repeat: no-repeat;
-background-size: 100% 100%;
-background-attachment: fixed;
-   text-align: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
     padding: 20px ;
     font-size: 20px;
     grid-gap: 50px; 
     border-radius: 30px; 
   }
+  .select {
+    border: 1px solid rgb(226, 81, 23);
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 10%;
+  }
+
+  #pantalla-buscar-pokemon {
+    background: rgba(201, 209, 212, 0.774);
+   }
+ 
+ #pantalla-card {
+  background: rgba(201, 209, 212, 0.774);
+ }
+
 @media (max-width:768px) {
 
 header label {
@@ -102,5 +119,12 @@ header label {
 #btn-menu:checked ~ .menu {
 margin:0;
 }
-
+.grid-container {
+    display:grid;
+    grid-template-columns: 200px 200px;
+    padding: 60px;
+    }
+.select{
+    margin-left:15px; 
 }
+   }
