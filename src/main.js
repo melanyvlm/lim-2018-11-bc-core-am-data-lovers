@@ -16,6 +16,14 @@ btnPokemon.addEventListener('click', irPokemon);
 btnInicio.addEventListener('click', irInicio);
 btnBuscarPokemon.addEventListener('click', buscarPokemon);
 function buscarPokemon() {
+  let saveOrden = [];
+for(let i = 0; i < pokemonDataArray.length ; i ++ ){
+  saveOrden.push(`<div class="grid-item">
+    <input type = "image" src="${pokemonDataArray[i].img}">
+     <label>${pokemonDataArray[i].name}</label>
+                       </div> `);
+    containerList.innerHTML = saveOrden.join('');
+}
   document.getElementById('pantalla-buscar-pokemon').style.display = 'block';
   document.getElementById('pantalla-inicio').style.display = 'none';
   // document.getElementById('pantalla-equipos').style.display = 'none';
