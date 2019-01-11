@@ -5,7 +5,7 @@ const pokemonDataArray = window.POKEMON.pokemon;
 // mostrando pantalla de inicio
 
 document.getElementById('pantalla-inicio').style.display = 'block';
-document.getElementById('pantalla-cuatro').style.display = 'none';
+document.getElementById('pantalla-card').style.display = 'none';
 document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
 
 const btnBuscarPokemon = document.getElementById('buscar');
@@ -33,12 +33,12 @@ for(let i = 0; i < pokemonDataArray.length ; i ++ ){
 function irPokemon() {
   document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
   document.getElementById('pantalla-inicio').style.display = 'none';
-  document.getElementById('pantalla-cuatro').style.display = 'block';
+  document.getElementById('pantalla-card').style.display = 'block';
 }
 function irInicio() {
   document.getElementById('pantalla-buscar-pokemon').style.display = 'none';
   document.getElementById('pantalla-inicio').style.display = 'block';
-  document.getElementById('pantalla-cuatro').style.display = 'none';
+  document.getElementById('pantalla-card').style.display = 'none';
 }
 
 const ingresokm = document.getElementById('ingreso-km');
