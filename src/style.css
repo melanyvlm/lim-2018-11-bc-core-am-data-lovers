@@ -121,7 +121,7 @@ margin:0;
 }
 .grid-container {
     display:grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px ;
     padding: 60px;
     }
 .select{
